@@ -33,7 +33,7 @@ while(True):
         print("Your profits earned so far is",profits)
     elif ins=='sales':
         print("Your sales so far is ")
-        for i in range(len(sal)):
+        for i in range(len(sales)):
             print(sales[i][1]+" "+sales[i][0]+"s")
     elif ins=='end':
         break;
